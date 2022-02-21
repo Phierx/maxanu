@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+    /*padding: 10px;*/
+    height: auto; /* Should be removed. Only for demonstration */
+  }
+  
+  .left {
+    width: 16%;
+  }
+  
+  .right {
+      
+    width: 84%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .half{
+    width: 50%;
+  }
+  .full{
+    width: 100%;
+  }
+ .main{
+     height: 700px;
+ }
+ .mainimage{
+     width: 100%;
+ }
+ .mainbg{
+    background-image: url("../image/merchant.jpg");
+    background-size: cover;
+ }
+ .mainbg2{
+    background-image: url("../image/merchant.jpg");
+    background-size: cover;
+ }
